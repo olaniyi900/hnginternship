@@ -2,3 +2,51 @@
     box-sizing: border-box;
 }
 
+body{
+    margin: 20px 80px;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    color: green;
+    letter-spacing: 5px;
+    
+}
+h3{
+    color: green;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#photo{
+    height: 10rem;
+    width: 10rem;
+}
+
+.contact{
+    display: flex;
+}
+
+.contactinfo{
+    padding-right: 2rem;
+}
+
+.contactphoto{
+    /* margin-top: 2rem; */
+    padding: 2rem
+}
+
+p, h4{
+    font-family: 'Livvic', sans-serif;
+}
+
+.school1, .school2{
+    margin-bottom: 2rem
+}
+
+.skills, .language, .experience, .education, .lang, .contact{
+    margin-bottom: 3rem;
+}
+
+#mail{
+    color: blue;
+}
