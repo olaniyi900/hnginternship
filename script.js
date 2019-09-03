@@ -40,6 +40,7 @@ subbtn.addEventListener("click", function (event) {
         backbtn.textContent = "Back to CV";
         backbtn.className = "backbtn";
         myform.appendChild(backbtn)
+        // craete button to take back to cv page
         backbtn.addEventListener("click", function () {
             let cv = document.getElementById("cv");
             cv.style.display = "block";
@@ -60,5 +61,5 @@ subbtn.addEventListener("click", function (event) {
 
 
 
-// let backbtn1 = document.getElementsByClassName("backbtn");
+
 
