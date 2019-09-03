@@ -11,64 +11,104 @@
 </head>
 
 <body>
-    <h1>OLANIYI STEPHEN AJAYI</h1>
-    <!-- <hr> -->
-    <div class="contact">
-        <div class="contactinfo">
-            <h3>Front-end Developer</h3>
-            <p>63 Church Avenue,</p>
-            <p>Ajangbadi Ojo,</p>
-            <p>Lagos, Nigeria.</p>
-            <h4>+2348054134685</h4>
-            <h4 id="mail">olaniyi900@outlook.com</h4>
+    <div id="cv">
+        <h1>OLANIYI STEPHEN AJAYI</h1>
+        <!-- <hr> -->
+        <div class="contact">
+            <div class="contactinfo">
+                <h3>Front-end Developer</h3>
+                <p>63 Church Avenue,</p>
+                <p>Ajangbadi Ojo,</p>
+                <p>Lagos, Nigeria.</p>
+                <h4>+2348054134685</h4>
+                <h4 id="mail">olaniyi900@outlook.com</h4>
+            </div>
+            <div class="contactphoto">
+                <img id="photo" src="https://res.cloudinary.com/olaniyi/image/upload/v1566506556/20170804_133337_image_fkdtkk.jpg" alt="ajayi photo" srcset="">
+                <button id="contactbtn" type="button">Contact Form</button>
+            </div>
+
+            
+
         </div>
-        <div class="contactphoto">
-            <img id="photo" src="https://res.cloudinary.com/olaniyi/image/upload/v1566506556/20170804_133337_image_fkdtkk.jpg" alt="ajayi photo" srcset="">
+        <!-- <hr> -->
+        <div class="skills">
+            <h3>SKILLS</h3>
+            <p>Can develop a simple web page</p>
+        </div>
+        <!-- <hr> -->
+        <div class="language">
+            <h3>LANGUAGE AND FRAMEWORKS</h3>
+            <p>HTML, CSS, JavaScript</p>
+            <p>Python, React, Bootstrap</p>
+        </div>
+        <!-- <hr> -->
+        <div class="experience">
+            <h3>EXPERIENCE</h3>
+            <p><strong>Nigerian Navy, Abuja</strong></p>
+            <p>Electrical Technician</p>
+            <p>July 2006 - Present</p>
+            <p>Repair and installation of electrical equipment on board ship</p>
+            <p><strong>PHCN, Ibadan — Intern</strong></p>
+            <p>April 2004 - Sep 2004</p>
+            <p>Participate in the installation of 450KVA transformer</p>
+        </div>
+        <!-- <hr> -->
+        <div class="education">
+            <h3>EDUCATION</h3>
+            <div class="school1">
+                <p><strong>Petroleum Training Institute, Effurun (Nigeria)</strong></p>
+                <p><strong>Higher National Diploma (HND)</strong></p>
+                <p>10 Jan 2009 – 20 Sep 2013</p>
+                <p>Electrical/Electronics Engineering</p>
+                <p>Power and Machice Option</p>
+            </div>
+            <div class="school2">
+                <p><strong>The Polytechnic Ibadan, Ibadan (Nigeria)</strong></p>
+                <p><strong>National Diploma (ND)</strong></p>
+                <p>20 Jan 2002 – 15 Jun 2005</p>
+                <p>Electrical/Electronics Engineering</p>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="lang">
+            <h3>LANGUAGES</h3>
+            <p>Proficient in English Language</p>
         </div>
     </div>
-    <!-- <hr> -->
-    <div class="skills">
-        <h3>SKILLS</h3>
-        <p>Can develop a simple web page</p>
-    </div>
-    <!-- <hr> -->
-    <div class="language">
-        <h3>LANGUAGE AND FRAMEWORKS</h3>
-        <p>HTML, CSS, JavaScript</p>
-        <p>Python, React, Bootstrap</p>
-    </div>
-    <!-- <hr> -->
-    <div class="experience">
-        <h3>EXPERIENCE</h3>
-        <p><strong>Nigerian Navy, Abuja</strong></p>
-        <p>Electrical Technician</p>
-        <p>July 2006 - Present</p>
-        <p>Repair and installation of electrical equipment on board ship</p>
-        <p><strong>PHCN, Ibadan — Intern</strong></p>
-        <p>April 2004 - Sep 2004</p>
-        <p>Participate in the installation of 450KVA transformer</p>
-    </div>
-    <!-- <hr> -->
-    <div class="education">
-        <h3>EDUCATION</h3>
-        <div class="school1">
-            <p><strong>Petroleum Training Institute, Effurun (Nigeria)</strong></p>
-            <p><strong>Higher National Diploma (HND)</strong></p>
-            <p>10 Jan 2009 – 20 Sep 2013</p>
-            <p>Electrical/Electronics Engineering</p>
-            <p>Power and Machice Option</p>
-        </div>
-        <div class="school2">
-            <p><strong>The Polytechnic Ibadan, Ibadan (Nigeria)</strong></p>
-            <p><strong>National Diploma (ND)</strong></p>
-            <p>20 Jan 2002 – 15 Jun 2005</p>
-            <p>Electrical/Electronics Engineering</p>
-        </div>
-    </div>
-    <!-- <hr> -->
-    <div class="lang">
-        <h3>LANGUAGES</h3>
-        <p>Proficient in English Language</p>
+
+    <div id="myform">
+        <h3 class="form-field">Contact Form</h3>
+        <form action="" method="GET">
+            <div class="form-field">
+            <label for="user_title">
+                <!-- <span>Title:</span> -->
+            </label>
+            <select class="input-field" name="title" id="user_title">
+                <option value="select-title" >--Select a Title--</option>
+                <option value="Mr">Mr.</option>
+                <option value="Mrs">Mrs.</option>
+                <option value="Miss">Miss.</option>
+                <!-- <option value="others">Others</option> -->
+            </select>
+            </div>
+            <div class="form-field">
+              <label for="name"></label>
+              <input class="input-field" type="text" id="name" name="user_name" placeholder="First Name">
+            </div>
+            <div class="form-field">
+              <label for="mail"></label>
+              <input class="input-field" type="email" id="mail1" name="user_mail" placeholder="Your Email">
+            </div>
+            <div class="form-field">
+              <label for="msg"></label>
+              <textarea class="message-field" id="msg" name="user_message" placeholder="Please leave a message"></textarea>
+            </div>
+            <div class="form-field">
+                <button class="input-field" id="subbtn" class="form-field" type="submit">Submit</button>
+            </div>
+        </form>
+
     </div>
 
 </body>
